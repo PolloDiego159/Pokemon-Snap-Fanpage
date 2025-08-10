@@ -96,3 +96,63 @@ body {
     display: var(--show, none);
 }
 
+
+.hero_container {
+    max-width: 800px;
+    --padding-container: 0;
+    display: grid;
+    grid-auto-rows: max-content;
+    align-content: center;
+    gap: 1em;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.hero_title {
+    font-size: 3rem;
+}
+
+.hero_paragraph {
+    margin-bottom: 20px;
+}
+
+/* About */
+
+.about {
+    text-align: center;
+}
+
+.subtitle {
+    color: var(--color-title);
+    font-size: 2rem;
+    margin-bottom: 25px;
+}
+
+
+.about_paragraph {
+    line-height: 1.7;
+}
+
+.about_main {
+    padding-top: 50px;
+    display: grid;
+    width: 90%;
+    margin: 0 auto;
+    gap: 1em;
+    overflow: hidden;
+    grid-template-columns: repeat(auto-fit, minmax(100px, auto));
+}
+
+
+.about_icons {
+    display: grid;
+    gap: 1em;
+    justify-items: center;
+    width: 400px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.about_icon {
+    width: 300px;
+}
