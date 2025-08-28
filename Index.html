@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pokemon Snap</title>
-    <link rel="shortcut icon" href="./imagenes/Pokemon_snap2.jpg" type="image/x-icon">
+    <link rel="shortcut icon" href="./imagenes/Pokemon_snap2.o.png" type="image/x-icon">
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/estilos.css">
 
@@ -28,82 +28,66 @@
 
     <header class="hero">
         <nav class="nav container">
-            <div class="nav_logo">
-                <h2 class="nav_title">Pokemon Snap</h2>
+            <div class="nav__logo">
+                <h2 class="nav__title">Pokemon Snap</h2>
             </div>
 
-            <ul class="nav_link nav_link--menu">
-                <li class="nav_items">
-                    <a href="#" class="nav_links">Inicio</a>
+            <ul class="nav__link nav__link--menu">
+                <li class="nav__items">
+                    <a href="#" class="nav__links">Inicio</a>
                 </li>
-                <li class="nav_items">
-                    <a href="#" class="nav_links">Sistema de puntos</a>
+                <li class="nav__items">
+                    <a href="#" class="nav__links">Sistema de puntos</a>
                 </li>
-                <li class="nav_items">
-                    <a href="#" class="nav_links">Pokedex</a>
+                <li class="nav__items">
+                    <a href="#" class="nav__links">Pokedex</a>
                 </li>
-                <li class="nav_items">
-                    <a href="#" class="nav_links">Guías</a>
+                <li class="nav__items">
+                    <a href="#" class="nav__links">Guías</a>
                 </li>
-                <li class="nav_items">
-                    <a href="#" class="nav_links">Curiosidades</a>
+                <li class="nav__items">
+                    <a href="#" class="nav__links">Curiosidades</a>
                 </li>
-                <li class="nav_items">
-                    <a href="#" class="nav_links">Review</a>
+                <li class="nav__items">
+                    <a href="#" class="nav__links">Review</a>
                 </li>
-                <img src="./imagenes/close.svg" class="nav_close">
+                <img src="./imagenes/close.svg" class="nav__close">
             </ul>
-
-            <!--pendiente a revision-->
-            <div class="nav_menu">
-                <img src="./imagenes/menu.svg" class="nav_img">
+            <div class="nav__menu">
+                <img src="./imagenes/menu.svg" class="nav__img">
             </div>
         </nav>
 
-        <section class="hero_container container">
-            <img src="./imagenes/Pokemon_snap2.jpg" class="hero_img">
-            <p class="hero_paragraph">¡Sumérgete en el mundo de Pokemon Snap! Captura momentos inolvidables con tus Pokemon favoritos en este emocionante juego de aventuras. Explora paisajes impresionantes, completa desafiantes misiones y conviértete en el mejor fotógrafo Pokemon. ¡No te lo pierdas!</p>
+        <section class="hero__container container">
+            <img src="./imagenes/Pokemon_snap2.o.png" class="hero__img">
+            <p class="hero__paragraph">¡Sumérgete en el mundo de Pokemon Snap! Captura momentos inolvidables con tus Pokemon favoritos en este emocionante juego de aventuras. Explora paisajes impresionantes, completa desafiantes misiones y conviértete en el mejor fotógrafo Pokemon. ¡No te lo pierdas!</p>
         </section>
     </header>
 
     <main>
+        <!--inicio-->
         <section class="container about">
             <h2 class="subtitle">Sistema de juego</h2>
-            <p class="about_paragraph">Desde el menú principal, accedes a las fases del juego. Te desplazas por un camino predeterminado, como en un FPS sobre raíles, y puedes tomar hasta 60 fotos por cada vuelta. Al final de la fase, eliges las mejores fotos para que el Profesor Oak las evalúe y puntúe. Una buena puntuación y fotografiar diferentes Pokémon es clave para avanzar.</p>
+            <p class="about__paragraph">Desde el menú principal, accedes a las fases del juego. Te desplazas por un camino predeterminado, como en un FPS sobre raíles, y puedes tomar hasta 60 fotos por cada vuelta. Al final de la fase, eliges las mejores fotos para que el Profesor Oak las evalúe y puntúe. Una buena puntuación y fotografiar diferentes Pokémon es clave para avanzar.</p>
 
-            <div class="about_main">
-                <article class="about_icons">
-                    <img src="./imagenes/pikasurf.gif" class="about_icon">
-                    <h3 class="about_title">Puntuaciones</h3>
-                    <p class="about_paragraph">Especial, que premia situaciones o ataques interesantes; Tamaño, que considera cuán grande y centrado está el Pokémon; Pose, que puntúa la posición del Pokémon al interactuar con objetos como la comida o la Poké Flauta; y Técnica, que duplica los puntos de los demás criterios si el Pokémon está centrado. Además, se otorga un bonus si hay más de un Pokémon en la imagen.</p>
+            <div class="about__main">
+                <article class="about__icons">
+                    <img src="./imagenes/pikasurf.gif" class="about__icon">
+                    <h3 class="about__title">Puntuaciones</h3>
+                    <p class="about__paragraph">Especial, que premia situaciones o ataques interesantes; Tamaño, que considera cuán grande y centrado está el Pokémon; Pose, que puntúa la posición del Pokémon al interactuar con objetos como la comida o la Poké Flauta; y Técnica, que duplica los puntos de los demás criterios si el Pokémon está centrado. Además, se otorga un bonus si hay más de un Pokémon en la imagen.</p>
                 </article>
 
-                <article class="about_icons">
-                    <img src="./imagenes/fat-ass.gif" class="about_icon">
-                    <h3 class="about_title">Objetos</h3>
-                    <p class="about_paragraph">El Profesor Oak evalúa tus fotografías basándose en el tamaño, la pose, la técnica, si son especiales y si incluyen a más de un Pokémon. Para ayudarte a conseguir mejores fotos y avanzar en el juego, te entrega objetos como la Comida Pokémon, la Pester Ball y la Poké Flauta para interactuar con los Pokémon, así como el Motor de velocidad para posicionarte mejor; todos estos objetos se desbloquean al alcanzar ciertos puntajes en tus informes.</p>
+                <article class="about__icons">
+                    <img src="./imagenes/fat-ass.gif" class="about__icon">
+                    <h3 class="about__title">Objetos</h3>
+                    <p class="about__paragraph">El Profesor Oak evalúa tus fotografías basándose en el tamaño, la pose, la técnica, si son especiales y si incluyen a más de un Pokémon. Para ayudarte a conseguir mejores fotos y avanzar en el juego, te entrega objetos como la Comida Pokémon, la Pester Ball y la Poké Flauta para interactuar con los Pokémon, así como el Motor de velocidad para posicionarte mejor; todos estos objetos se desbloquean al alcanzar ciertos puntajes en tus informes.</p>
                 </article>
             </div>
         </section>
 
     </main>
-
-    <section class="knowledge">
-            <div class="knowledge__container container">
-                <div class="knowledge__texts">
-                    <h2 class="subtitle">Curso completo de CSS3. ¡Domina CSS de una vez por todas!</h2>
-                    <p class="knowledge__paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi,
-                    aliquam nemo in facere suscipit at delectus unde labore ad officia iste accusantium eaque
-                    aperiam laborum est voluptate totam? Modi, obcaecati?</p>
-                </div>
-
-            <figure class="knowledge__picture">
-                <img src="./imagenes/bulbasur_img.jpg" class="knowledge__img">
-            </figure>
-        </div>
-    </section>
-
-     <section class="testimony">
+    <!--seccion de pokedex-->
+    <section class="testimony">
             <div class="testimony__container container">
                 <img src="./imagenes/leftarrow.svg" class="testimony__arrow" id="before">
 
@@ -151,15 +135,173 @@
                         <img src="./imagenes/Psyduck_Snap.webp" class="testimony__img">
                     </figure>
                 </section>
-                <!--faltan las regiones de cueva, valle y arcoiris-->
+                <section class="testimony__body" data-id="5">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Jigglypuff, <span class="testimony__course">el Pokémon globo.</span></h2>
+                        <p class="testimony__review">Hay tres a lo largo del escenario y aparecen corriendo delante de Koffing. Si consigues salvar a los tres, tendrás una grata sorpresa al final del nivel.</p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="./imagenes/Jigglypuff_Snap.webp" class="testimony__img">
+                    </figure>
+                </section>
+
+                <section class="testimony__body" data-id="6">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Dragonite, <span class="testimony__course">el Pokémon dragón.</span></h2>
+                        <p class="testimony__review">Lanza Pester Balls en mitad del remolino para obligarle a que aparezca. Dirige, la cámara hacia el centro del remolino para fotografiarlo en cuanto saque la cabeza.</p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="./imagenes/Dragonite_Snap.webp" class="testimony__img">
+                    </figure>
+                </section>
+
+                <section class="testimony__body" data-id="7">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Mew, <span class="testimony__course">el Pokémon Nueva Especie.</span></h2>
+                        <p class="testimony__review">Para poder fotografiar a Mew hay que seguir una serie de pasos pues al querer tomar la foto, Una vez completas las tareas, Mew aparecerá flotando a un lado de ti, persiguiendo su barrera, debes ser rápido y golpearlo con una Pester Ball consecutivas veces hasta estar cerca de él y esperar el momento preciso para fotografiarlo.</p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="./imagenes/Mew_Snap.webp" class="testimony__img">
+                    </figure>
+                </section>
 
                 <img src="./imagenes/rightarrow.svg" class="testimony__arrow" id="next">
             </div>
-        </section>
+    </section>
+
+
+    <!-- Sección de guías recomendadas -->
+    <section class="guides container">
+        <h2 class="subtitle">Guías recomendadas</h2>
+        <div class="guides__videos">
+            <div class="guide__video">
+                <!-- Espacio para video 1 -->
+                <iframe width="320" height="180" src="https://www.youtube.com/embed/9Zs5YOXzZbU?si=4Npx6V3UPrVWnaul" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="guide__video">
+                <!-- Espacio para video 2 -->
+                 <iframe width="320" height="180" src="https://www.youtube.com/embed/WKmWzaTSLRk?si=ucqqrpJ8UujIKfh_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="guide__video">
+                <!-- Espacio para video 3 -->
+                <iframe width="320" height="180" src="https://www.youtube.com/embed/0r_rRoUBpGU?si=g9k_B9xWbbAO1W8M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+        <p class="guides__note">Las guias solo son para ayudarte a fotografiar a los pokemons mas dificiles pero no dudes en experimentar y jugar con las fotografias como quieras.</p>
+    </section>
+
+
+    <section class="questions container">
+            <h2 class="subtitle">Curiosidades</h2>
+            <p class="questions__paragraph">Pokémon Snap fue originalmente desarrollado para ser un juego de Nintendo 64DD por lo que tiene muchos detalles especificos de esta extension de la consola, estos son algunas de las curiosidades de este titulo tan clasico de la N64</p>
+
+            <section class="questions__container">
+                <article class="questions__padding">
+                    <div class="questions__answer">
+                        <h3 class="questions__title">Aparecen Zapdos, Moltres y Articuno
+                            <span class="questions__arrow">
+                                <img src="./imagenes/arrow.svg" class="questions__img">
+                            </span>
+                        </h3>
+                        <p class="questions__show">Las tres aves legendarias aparecen en huevos Pokémon, aun cuando los Pokémon legendarios no nacen en huevos. Curiosamente, estos huevos Pokémon resultaban muy grandes y eclosionan al contacto con el elemento (el huevo de Zapdos eclosiona por el trueno de Pikachu; el huevo de Moltres eclosiona por el contacto con la lava; el huevo de Articuno eclosiona por el canto de Jynx).</p>
+                    </div>
+                </article>
+
+                <article class="questions__padding">
+                    <div class="questions__answer">
+                        <h3 class="questions__title">???????
+                            <span class="questions__arrow">
+                                <img src="./imagenes/arrow.svg" class="questions__img">
+                            </span>
+                        </h3>
+                        <p class="questions__show">Al fotografiar a Haunter su nombre no aparece como los demás Pokémon, sino que aparece "???". Además, en la fase en la que aparece, no se ve si figura, sino simplemente un círculo morado en movimiento con gas. Al revelar la fotografía, sale normal.</p>
+                    </div>
+                </article>
+
+                <article class="questions__padding">
+                    <div class="questions__answer">
+                        <h3 class="questions__title">:]
+                            <span class="questions__arrow">
+                                <img src="./imagenes/arrow.svg" class="questions__img">
+                            </span>
+                        </h3>
+                        <p class="questions__show">En la cueva, los Ditto que allí aparecen tienen forma de Bulbasaur, pero tienen el rostro igual al de Ditto. Esto parece una referencia al anime, donde el Ditto de Duplica podía tomar la forma de cualquier Pokémon, solo que no le cambiaba el rostro. Además, en ese episodio Ditto se transformó en el Bulbasaur de Ash.</p>
+                    </div>
+                </article>
+            </section>
+    </section>
+    <!--review-->
+    <section class="knowledge">
+            <div class="knowledge__container container">
+                <div class="knowledge__texts">
+                    <h2 class="subtitle">Review</h2>
+                    <p class="knowledge__paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi,
+                    aliquam nemo in facere suscipit at delectus unde labore ad officia iste accusantium eaque
+                    aperiam laborum est voluptate totam? Modi, obcaecati?</p>
+                </div>
+
+            <figure class="knowledge__picture">
+                <img src="./imagenes/bulbasur_img.jpg" class="knowledge__img">
+            </figure>
+        </div>
+    </section>
     
+    <footer class="footer">
+        <section class="footer__container container">
+            <nav class="nav nav--footer">
+                <h2 class="footer__title">Pokemon Snap - Referencias</h2>
 
+                <ul class="nav__link nav__link--footer">
+                    <li class="nav__items">
+                        <a href="#" class="nav__links">Inicio</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="#" class="nav__links">Acerca de</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="#" class="nav__links">Contacto</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="#" class="nav__links">Blog</a>
+                    </li>
+                </ul>
 
+                <ul class="nav__link nav__link--footer">
+                    <li class="nav__items">
+                        <a href="#" class="nav__links">Ref1</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="#" class="nav__links">Ref2</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="#" class="nav__links">Ref3</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="#" class="nav__links">Ref4</a>
+                    </li>
+                </ul>
+                
+            </nav>
+        </section>
+
+        <section class="footer__copy container">
+            <div class="footer__social">
+                <a href="#" class="footer__icons"><img src="imagenes/facebook.svg" class="footer__img"></a>
+                <a href="#" class="footer__icons"><img src="imagenes/instagram.svg" class="footer__img"></a>
+                <a href="#" class="footer__icons"><img src="imagenes/linkendin.svg" class="footer__img"></a>
+            </div>
+
+            <h3 class="footer__copyright">Derechos reservados (no me demanden) &copy; Nintendo</h3>
+        </section>
+    </footer>
     
     <script src="./js/slider.js"></script>
+    <script src="./js/curiosidades.js"></script>
+    <script src="./js/menu.js"></script>
 </body>
 </html>
+
+    
